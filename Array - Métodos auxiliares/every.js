@@ -1,5 +1,5 @@
 var jogos = [
-    //{nome: 'fifa 18', categoria: 'futebol' },
+    {nome: 'fifa 18', categoria: 'futebol' },
     {nome: 'need for sped most wanted' , categoria: 'corrida' },
     {nome: 'gran turismo 6', categoria: ' corrida'},
     {nome: 'counter strike', categoria: 'ação'},
