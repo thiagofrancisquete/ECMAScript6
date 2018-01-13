@@ -1,15 +1,5 @@
-var carro = {
-    marca: 'fiat',
-    ano: 98
-}
-
-/*
-for (var propriedade of carro){
-    console.log(propriedade)
-}
-*/
-
-for (var propriedade in carro){
-    var info = carro[propriedade]
-    console.log(info)
+var numeros = [1, 2, 3, 4]
+for (var numero of numeros){
+    if (numero > 3) break
+    console .log(numero)
 }
