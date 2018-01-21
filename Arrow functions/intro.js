@@ -1,10 +1,12 @@
-// function declaration
+/*
+ function declaration
 function desligar(){
-    // code..
+     code..
 }
-// function expression
+ function expression
 var funcaoDesligar = function(){
-    // code..
+     code..
 }
-// function constructor
+ function constructor
 var funcaoDesligar = new Function('corpo da funcao')
+*/
