@@ -3,7 +3,6 @@ function somaTudo(){
     for (var i = 0; i < arguments.length; i++){
         soma += arguments[i];
     }
-
     console.log(soma);
 }
 
