@@ -1,19 +1,14 @@
-function somaTudo(...valores){
-    return valores.reduce((soma, valor) =>{
-        return soma+valor
-    }, 0)    
+function myFunction(a, b, ...args) {
+  console.log(`${args} `)
 }
 
-console.log(somaTudo(1))
-console.log(somaTudo(1,2,3))
-console.log(somaTudo(1,2))
+myFunction(1, 2, 3, 4, 5)
 
+/* ES5
+function myFunction (a, b, c){
+  var args = Array.prototype.slice.call(arguments, myFunction.length)
 
-function multiplicaESoma(multiplicador, ...valores){
-    return valores.reduce((soma,valor) =>{
-        return soma + (valor*multiplicador)
-    }, 0)
-}
-
-console.log(multiplicaESoma(2,1,2))
-console.log(multiplicaESoma(2,6,7))
+  console.log(args)
+} 
+myFunction(1,2,3,4,5) 
+*/
