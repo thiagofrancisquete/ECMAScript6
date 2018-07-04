@@ -1,0 +1,1 @@
+console.log(document.querySelectorAll(".teste")[2].innerHTML)
