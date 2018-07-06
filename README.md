@@ -1,1 +1,0 @@
-### Tudo sobre o ECMAScript 6 :octocat:
