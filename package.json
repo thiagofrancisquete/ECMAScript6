@@ -1,0 +1,16 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thiagofrancisquete/ECMAScript6.git",
+  "author": "thiagofrancisquete <thiago.francisquete@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.53",
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js"
+  }
+}
