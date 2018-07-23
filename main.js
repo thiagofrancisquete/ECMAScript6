@@ -29,7 +29,7 @@ document.getElementById('novotodo').onclick = function() {
 }
 
 MinhaLista.mostraUser();
-*/
+
 
 // Aula 3 - OPerações em array
 const arr = [1, 3, 4, 5, 8, 9];
@@ -60,3 +60,17 @@ const procurar = arr.find(function(item){
   return item === 6;
 })
 console.log(procurar);
+*/
+const arr = [1, 2, 3 , 4];
+
+const newArr = arr.map(function(item) {
+  return item * 2;
+});
+console.log(newArr);
+
+// arrow function
+const newArrow = arr.map(item => item * 3);
+console.log(newArrow);
+
+const teste = () => ({ nome: 'Leandra'});
+console.log(teste());
