@@ -60,17 +60,32 @@ const procurar = arr.find(function(item){
   return item === 6;
 })
 console.log(procurar);
-*/
-const arr = [1, 2, 3 , 4];
-
-const newArr = arr.map(function(item) {
-  return item * 2;
-});
-console.log(newArr);
 
 // arrow function
+const arr = [1, 2, 3 , 4];
+
 const newArrow = arr.map(item => item * 3);
 console.log(newArrow);
 
 const teste = () => ({ nome: 'Leandra'});
 console.log(teste());
+
+const soma = (a = 4, b = 5) => {
+  return a + b;
+}
+
+console.log(soma(2));
+console.log(soma());
+
+// desestruturação
+const usuario = {
+  nome: 'Thiago',
+  idade: 22,
+  endereco: {
+    cidade: 'Sjc',
+    estado: 'SP'
+  },
+};
+
+console.log(`O ${usuario.nome} possui ${usuario.idade} anos e mora em ${usuario.endereco.cidade} no estado de ${usuario.endereco.estado}`);
+*/
